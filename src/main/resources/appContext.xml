@@ -16,6 +16,7 @@
     <bean id="recommenderImplementation"
           class="io.datajek.spring.basics.movierecommendersystem.lesson14.RecommenderImplementation">
         <!--<property name="filter" ref="collaborativeFilter"/> -->
+        <!-- if we want to use Setter injection uncomment above and comment below -->
         <constructor-arg ref="collaborativeFilter"/>
     </bean>
 

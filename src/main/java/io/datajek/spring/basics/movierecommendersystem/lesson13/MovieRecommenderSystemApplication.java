@@ -30,7 +30,7 @@ public class MovieRecommenderSystemApplication {
         //display results
         System.out.println(Arrays.toString(result));
 
-        appContext.close();git a
+        appContext.close();
 
     }
 
